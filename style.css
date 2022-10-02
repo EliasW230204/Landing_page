@@ -1,0 +1,117 @@
+
+h1{
+    text-align: center;
+    width: 100%;
+    
+    
+}
+
+.onglet h1 a{
+    padding-right: 5%;
+    text-decoration: none;
+}
+
+.accueil{
+    color: rgb(163, 163, 163);
+}
+
+.casque{
+    color: rgb(163, 163, 163);
+}
+
+.ecouteur{
+    color: rgb(163, 163, 163);
+}
+
+.enceintes{
+    color: rgb(163, 163, 163);
+}
+.logo{
+    display: flex;
+    justify-content: end ;
+    width: 150px;
+}
+
+.casque_image{
+    width: 440px;
+}
+
+.section{
+    display: flex;
+    align-items: center;
+}
+.texte_casque{
+    display: flex;
+    justify-content: end;
+}
+.onglet{
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+    
+.bouton{
+    border: 2px solid;
+    background-color: grey;
+    color: white;
+    text-decoration: none;width: 4%;
+    border-radius: 250px;
+   width: 3px;
+   justify-content:flex-end;
+}
+
+
+
+.boutonlien{
+   
+    background-color: grey;
+    color: white;
+    text-decoration: none;width: 4%;
+    border-radius: 25px;
+   width: 1px;
+
+   align-items:flex-end;
+}
+
+@media all and (max-device-width:480px){
+    
+    .logo{
+    width: 150px
+    }
+    .onglet h1 a{
+        width: 3px;
+        padding-right: 0,25%;
+        text-decoration: none;
+    }
+    
+    .accueil{
+        color: rgb(163, 163, 163);
+    }
+    
+    .casque{
+        color: rgb(163, 163, 163);
+    }
+    
+    .ecouteur{
+        color: rgb(163, 163, 163);
+    }
+    
+    .enceintes{
+        color: rgb(163, 163, 163);
+    }
+    .texte_casque{
+        display: flex;
+        justify-content:flex-start;
+    }
+    
+    @media all and (max-device-width:1020px){
+
+   
+   
+   
+   
+   
+   
+    /*pour le max-device-width car cela permet de cibler la taille d'écran/*
+
